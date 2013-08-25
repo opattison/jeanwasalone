@@ -7,7 +7,7 @@
 html {
   background: hsla(188, 26%, 7%, 1);
   margin: 0;
-  width: 100em;
+  width: 80em;
 }
 
 body {
@@ -18,6 +18,7 @@ body {
 }
 
 #view {
+  background: -webkit-linear-gradient(top, hsla(188, 26%, 26%, 1), hsla(188, 26%, 10%, 1));
   background: linear-gradient(to bottom, hsla(188, 26%, 26%, 1), hsla(188, 26%, 10%, 1));
   padding: 20em 0 0;
   -webkit-transform: rotate(1.4deg);
@@ -30,9 +31,9 @@ body {
   -webkit-animation-delay: 28000ms;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
+  left: 15em;
   opacity: 0;
   position: absolute;
-  left: 15em;
   top: 4em;
   -webkit-transform: rotate(-2.8deg);
   transform: rotate(-2.8deg);
@@ -45,9 +46,9 @@ h2 {
 }
 
 h2 {
-  position: relative;
-  left: 7.2em;
   bottom: 1.8em;
+  left: 7.2em;
+  position: relative;
 }
 
 #scene {
@@ -64,6 +65,7 @@ h2 {
 
 .character-1 {
   -webkit-transform: translate(15em, 6em);
+  transform: translate(15em, 6em);
 }
 
 .jean {
@@ -95,6 +97,7 @@ h2 {
 
 .character-2 {
   -webkit-transform: translate(30em);
+  transform: translate(30em);
 }
 
 .oliver {
@@ -236,52 +239,64 @@ h2 {
 @-webkit-keyframes jump-on {
   0% {
     -webkit-transform: translate(0);
+    transform: translate(0);
   }
 
   2% {
     -webkit-transform: scale(.6, 1.2);
+    transform: scale(.6, 1.2);
   }
 
   10% {
     -webkit-transform: translate(7.5em, -10em);
+    transform: translate(7.5em, -10em);
   }
 
   25% {
     -webkit-transform: scale(1);
+    transform: scale(1);
     -webkit-transform: translate(11em, -8em);
+    transform: translate(11em, -8em);
   }
 
   35% {
     -webkit-transform: translate(14em, -6em);
+    transform: translate(14em, -6em);
   }
 
   60% {
     -webkit-transform: translate(16em, -6em);
+    transform: translate(16em, -6em);
   }
 
   100% {
     -webkit-transform: translate(16em, -6em);
+    transform: translate(16em, -6em);
   }
 }
 
 @-webkit-keyframes shift-over {
   0% {
     -webkit-transform: translate(0);
+    transform: translate(0);
     max-width: 18em;
   }
 
   35% {
     -webkit-transform: translate(8em);
+    transform: translate(8em);
     max-width: 26em;
   }
 
   60% {
     -webkit-transform: translate(9em);
+    transform: translate(9em);
     max-width: 26em;
   }
 
   100% {
     -webkit-transform: translate(9em);
+    transform: translate(9em);
     max-width: 26em;
   }
 }

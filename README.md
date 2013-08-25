@@ -6,21 +6,21 @@
 
 This was a quick evening project that I put together to test out my CSS animation skills. No JavaScript or images were used in making this – only CSS transforms and animations.
 
-I loved the animations in the game Thomas Was Alone and wanted to see what parts were easy or difficult to emulate in quick and rough HTML and CSS. I also wanted to wish Jean happy birthday and I dislike paper greeting cards!
+I loved the animations in the game *Thomas Was Alone* and wanted to see what parts were easy or difficult to emulate in quick and rough HTML and CSS. I also wanted to wish Jean happy birthday and I dislike paper greeting cards!
 
-**[View it](http://jeanwasalone.olivermak.es)** (for Chrome desktop only, currently)
+**[View it](http://jeanwasalone.olivermak.es)** (for Chrome and Safari desktop only, currently)
 
 ## Features
 
-- Viewport-responsive typography in monologue boxes, just like in Thomas.
+- Viewport-responsive typography in monologue boxes, just like in *Thomas*. I tried my best to emulate the clever writing of the game's narrator.
 - Rendering of characters and backgrounds using CSS and typography.
 - Museo Sans font (also from the titles and interface in the game).
 
 ## Limitations
 
 - Non-optimized CSS everywhere!
-- No full support for anything but desktop Chrome.
-- Does not play well with mobile devices.
+- No full support for anything but desktop Chrome and Safari.
+- Does not play well with mobile devices, unfortunately.
 
 ## Credits
 
