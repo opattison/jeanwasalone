@@ -1,0 +1,13 @@
+title: Jean Was Alone
+author:
+  name: Oliver Pattison
+  email: oliverpattison@gmail.com
+url: http://jeanwasalone.olivermak.es/
+
+pygments: true
+layouts: ./_layouts
+plugins: ./_plugins
+exclude: ['Rakefile', 's3_website.yml']
+
+permalink: /:year/:title/
+markdown: kramdown
