@@ -1,4 +1,4 @@
-# Jean Was Alone
+# [Jean Was Alone](http://jeanwasalone.olivermak.es)
 
 ## A "happy birthday" CSS-only animation hack
 
@@ -7,6 +7,8 @@
 This was a quick evening project that I put together to test out my CSS animation skills. No JavaScript or images were used in making this – only CSS transforms and animations.
 
 I loved the animations in the game Thomas Was Alone and wanted to see what parts were easy or difficult to emulate in quick and rough HTML and CSS. I also wanted to wish Jean happy birthday and I dislike paper greeting cards!
+
+**[View it](http://jeanwasalone.olivermak.es)** (for Chrome desktop only, currently)
 
 ## Features
 
