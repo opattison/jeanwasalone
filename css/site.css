@@ -113,10 +113,10 @@ h2 {
 
 .platform {
   background: hsla(188, 26%, 7%, 1);
-  height: 15em;
-  position: relative;
   bottom: 0;
+  height: 15em;
   left: 0;
+  position: relative;
 }
 
 .monologue {
@@ -153,12 +153,12 @@ h2 {
 }
 
 .text {
-  display: block;
   -webkit-animation-name: shift-over;
   -webkit-animation-duration: 1700ms;
   -webkit-animation-delay: 20000ms;
   -webkit-animation-timing-function: ease-out;
   -webkit-animation-fill-mode: forwards;
+  display: block;
   height: 20em;
   max-width: 18em;
 }
@@ -211,10 +211,12 @@ h2 {
 @-webkit-keyframes enter-scene {
   0% {
     -webkit-transform: translate(-20em);
+    transform: translate(-20em);
   }
 
   100% {
     -webkit-transform: translate(0em);
+    transform: translate(0em);
   }
 }
 
